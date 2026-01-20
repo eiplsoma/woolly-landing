@@ -97,11 +97,12 @@ export default function AdatvedelmiNyilatkozatPage() {
             <p className="font-medium mt-2">
               6.1. Tárhelyszolgáltató (adatfeldolgozó)
             </p>
-            <p>Cégnév: Vercel Inc.</p>
-            <p>Székhely: 440 N Barranca Ave #4133, Covina, CA 49723, United States</p>
-            <p>Weboldal: https://vercel.com</p>
-            <p>E-mail: privacy@vercel.com</p>
+            <p>Cégnév: DigitalOcean, LLC</p>
+            <p>Székhely: 101 Avenue of the Americas, 10th Floor, New York, NY 10013, United States</p>
+            <p>Weboldal: https://www.digitalocean.com</p>
+            <p>E-mail: privacy@digitalocean.com</p>
             <p>Szerep: adatfeldolgozó</p>
+
 
             <p className="font-medium mt-4">6.2. Adattárolás helye</p>
             <p>Cégnév: Zoho Corporation</p>
