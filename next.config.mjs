@@ -1,9 +1,3 @@
-import withBundleAnalyzer from '@next/bundle-analyzer'
-
-const withBundleAnalyzerConfig = withBundleAnalyzer({
-  enabled: process.env.ANALYZE === 'true',
-})
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   typescript: {
@@ -14,4 +8,11 @@ const nextConfig = {
   },
 }
 
-export default withBundleAnalyzerConfig(nextConfig)
+let finalConfig = nextConfig
+
+if (process.env.ANALYZE === 'true') {
+  const withBundleAnalyzer = (await import('@next/bundle-analyzer')).default
+  finalConfig = withBundleAnalyzer({ enabled: true })(nextConfig)
+}
+
+export default finalConfig
