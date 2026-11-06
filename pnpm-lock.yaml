@@ -166,9 +166,6 @@ importers:
       vaul:
         specifier: ^1.1.2
         version: 1.1.2(@types/react-dom@19.2.3(@types/react@19.2.7))(@types/react@19.2.7)(react-dom@19.3.0(react@19.3.0))(react@19.3.0)
-      zod:
-        specifier: 3.25.76
-        version: 3.25.76
     devDependencies:
       '@next/bundle-analyzer':
         specifier: ^16.1.0
@@ -1868,9 +1865,6 @@ packages:
       utf-8-validate:
         optional: true
 
-  zod@3.25.76:
-    resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
-
 snapshots:
 
   '@alloc/quick-lru@5.2.0': {}
@@ -3431,5 +3425,3 @@ snapshots:
       isexe: 2.0.0
 
   ws@7.5.13: {}
-
-  zod@3.25.76: {}
